@@ -1,5 +1,10 @@
 return
   {
+    {
+  "nvim-tree/nvim-web-devicons",
+      version=false,
+  lazy = true,
+},
     -- lazy
     {
       "askfiy/visual_studio_code",

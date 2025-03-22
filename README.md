@@ -3,7 +3,7 @@ Ciao Matteo del futuro, per aver tutto nvim funzionante devi ricordarti:
 Per installare nvim:
 - Installa prerequisiti (Debian):
 ```bash
-sudo apt-get install ninja-build gettext cmake curl build-essential
+sudo apt-get install ninja-build gettext cmake curl build-essential luarocks
 git clone https://github.com/neovim/neovim
 cd neovim
 rm -r build/  # clear the CMake cache

@@ -1,4 +1,6 @@
 return {
+  {
+
   "goolord/alpha-nvim",
   dependencies = {
     "nvim-tree/nvim-web-devicons",
@@ -46,4 +48,5 @@ return {
 
     alpha.setup(dashboard.opts)
   end,
+  }
 }
