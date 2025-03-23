@@ -22,9 +22,7 @@
 			--lspconfig.textlsp.setup({})
 			lspconfig.fortls.setup({})
 			lspconfig.autotools_ls.setup({})
-			lspconfig.clangd.setup({
-                    cmd = { "clangd", "--fallback-style={IndentWidth: 2}" }
-                })
+			lspconfig.clangd.setup({})
 			lspconfig.foam_ls.setup({})
 			lspconfig.pyright.setup({})
 			lspconfig.mojo.setup({})
